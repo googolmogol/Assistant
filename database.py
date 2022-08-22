@@ -1,10 +1,10 @@
 import psycopg2 as psycopg2
 from psycopg2.extras import DictCursor
 
-host = "ec2-52-48-159-67.eu-west-1.compute.amazonaws.com"
-user = "puphjznprhssva"
-password = "3d0027a914d8b4f4876c588d3a8f6c97ee3f5a74f68e19e1b0d62f0fc360ff60"
-db_name = "d1a0f4qfnj3tqs"
+host = "ec2-34-242-8-97.eu-west-1.compute.amazonaws.com"
+user = "gpqsgawzgfqbwn"
+password = "0d678b309bcab6d607fd9bcce78e20c1e194faa2985d928c64372ec9efd606c7"
+db_name = "daes403ev66i8p"
 
 # connect to exist database
 connection = psycopg2.connect(
